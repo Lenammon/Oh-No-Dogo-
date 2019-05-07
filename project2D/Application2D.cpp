@@ -261,7 +261,9 @@ void Application2D::draw()
 		break;
 	case ESTATE_ENDGAME:
 		m_2dRenderer->drawText(m_font, "end of game you ran out of time", 0, 400 - 60);
-
+		char endPointText[32];
+		sprintf_s(endPointText, 32, " Your Score is %i", points);
+		m_2dRenderer->drawText(m_font, endPointText, 0, 400 - 100);
 		break;
 	}
 		// done drawing sprites
