@@ -247,8 +247,8 @@ void Application2D::draw()
 		//print out missing dog text
 		m_2dRenderer->drawText(m_font, "missing!", 0, 720 - 85);
 		// draw gumba 
-		m_2dRenderer->setRenderColour(1, 1, 1, 1);
-		m_2dRenderer->drawSprite(m_gumbaTexture, 100, 200, 100, 100);
+		//m_2dRenderer->setRenderColour(1, 1, 1, 1);
+		//m_2dRenderer->drawSprite(m_gumbaTexture, 100, 200, 100, 100);
 
 		//dog temp keep this position 
 		m_2dRenderer->setRenderColour(1, 1, 1, 1);
