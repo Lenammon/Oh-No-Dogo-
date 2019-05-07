@@ -199,7 +199,7 @@ void Application2D::draw()
 		m_InstructButton->Draw(m_2dRenderer);
 		break;
 	case ESTATE_INSTRUCT:
-		m_2dRenderer->drawText(m_font, "this is a dog game", 0, 500 - 70);
+		m_2dRenderer->drawText(m_font, "Find as many missing dogs before time runs out!", 0, 500 - 70);
 		m_BackButton->Draw(m_2dRenderer);
 		
 	/*	if (m_BackButton->Update())
