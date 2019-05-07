@@ -64,7 +64,7 @@ bool Application2D::startup()
 	int random = (rand() % max) + min;
 	// finding the scree height need to do width
 	m_button = new Button("woof", "./textures/tankBeige.png ", rand()% 200, rand()% 400, 120, 50); //put a texture for the play button 
-	m_button1 = new Button("bark", "./textures/tankBlue.png", rand() % 100, rand() % 400, 120, 50);
+	m_button1 = new Button("bork", "./textures/tankBlue.png", rand() % 100, rand() % 400, 120, 50);
 	m_button2 = new Button(" ", "./textures/tankRed.png", rand() % 300, rand() % 200, 120, 50);
 	m_button3 = new Button("missing ", "./textures/tankGreen.png", rand() % 800, rand() % 200, 120, 50);
 	//---------------------------------------------------------
